@@ -1,12 +1,13 @@
 export const theme = {
   colors: {
-    primary: '#1a73e8',
+    primary: '#D9D9D9',
     secondary: '#9c27b0',
     background: '#f5f5f5',
     surface: '#ffffff',
     text: {
       primary: 'rgba(0, 0, 0, 0.87)',
       secondary: 'rgba(0, 0, 0, 0.6)',
+      navText: '#BF6159',
     },
     error: '#d32f2f',
     success: '#2e7d32',

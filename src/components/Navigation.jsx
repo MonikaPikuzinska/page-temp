@@ -28,14 +28,9 @@ const NavBox = styled.div`
 `
 
 const NavButton = styled(Link)`
-  color: white;
+  color: ${({ theme }) => theme.colors.text.navText};
   text-decoration: none;
   padding: ${({ theme }) => theme.spacing.xs} ${({ theme }) => theme.spacing.sm};
-  border-radius: ${({ theme }) => theme.borderRadius.md};
-  border: ${({ $active, theme }) =>
-    $active ? `2px solid white` : '2px solid transparent'};
-  background-color: ${({ $active }) => ($active ? 'rgba(255, 255, 255, 0.1)' : 'transparent')};
-  transition: all 0.2s ease;
   font-size: ${({ theme }) => theme.typography.body1.fontSize};
   font-weight: 500;
 
@@ -49,6 +44,7 @@ function Navigation() {
 
   const navItems = [
     { path: '/', label: 'Home' },
+    { path: '/products', label: 'Products' },
     { path: '/about', label: 'About' },
   ]
 
