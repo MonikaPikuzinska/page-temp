@@ -6,7 +6,6 @@ import {
   faHandHoldingHeart,
   faHand,
   faStar,
-  faFaceSmile,
   faSpa,
   faEye,
   faPaintBrush,
